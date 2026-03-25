@@ -3,14 +3,8 @@ site_description: Internal catalog of approved AI developer assistants
 
 theme:
   name: material
-
-plugins: 
-  - search
-  - copy-code:
-      copy_button: true
-      copy_button_text: "Copy"
-      copy_button_success_text: "Copied!"
-      copy_button_timeout: 2000
+  features:
+    - content.code.copy
 
 markdown_extensions:
   - pymdownx.highlight
@@ -21,3 +15,5 @@ nav:
   - Assistants:
     - Code Review Assistants: assistants/code-review.md
     - C# API & Entity Framework Assistant: assistants/csharp-api-entity-framwork.md
+
+
