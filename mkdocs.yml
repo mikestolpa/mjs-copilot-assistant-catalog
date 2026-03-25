@@ -3,9 +3,19 @@ site_description: Internal catalog of approved AI developer assistants
 
 theme:
   name: material
-  features:
-    - content.copy.code
-    
+
+plugins: 
+  - search
+  - copy-code:
+      copy_button: true
+      copy_button_text: "Copy"
+      copy_button_success_text: "Copied!"
+      copy_button_timeout: 2000
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfence
+
 nav:
   - Home: index.md
   - Assistants:
