@@ -6,3 +6,5 @@ theme:
 
 nav:
   - Home: index.md
+  - Assistants:
+    - Code Review Assistants: assistants/code-review.md
