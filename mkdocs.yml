@@ -8,4 +8,4 @@ nav:
   - Home: index.md
   - Assistants:
     - Code Review Assistants: assistants/code-review.md
-    - C# API & Entity Framework Assistant: asistants/csharp-api-entity-framework.md
+    - C# API & Entity Framework Assistant: assistants/csharp-api-entity-framwork.md
