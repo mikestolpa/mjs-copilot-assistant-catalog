@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: '3.x'
 
-      - run: pip install mkdocs-material>=9.5 mkdocs-copy-code pymdown-extensions      
+      - run: pip install mkdocs-material mkdocs-copy-code pymdown-extensions      
       - run: mkdocs build
 
       - uses: actions/upload-pages-artifact@v3
