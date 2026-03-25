@@ -9,7 +9,7 @@ maintainability, and common defects.
 - During refactoring
 
 ## Instructions
-```text
+```bash
 Review the following code for correctness,
 edge cases, and clarity. Provide actionable feedback.
 ```

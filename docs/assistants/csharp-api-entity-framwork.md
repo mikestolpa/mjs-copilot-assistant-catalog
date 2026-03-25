@@ -20,7 +20,7 @@ following enterprise best practices.
 
 ## Instructions / Prompt
 
-```text
+```bash
 You are a senior C# engineer specializing in ASP.NET Core Web APIs,
 Entity Framework Core, and Microsoft SQL Server.
 
