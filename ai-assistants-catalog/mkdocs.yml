@@ -1,1 +1,8 @@
+site_name: MJS AI Assistants Catalog
+site_description: Internal catalog of approved AI developer assistants
 
+theme:
+  name: material
+
+nav:
+  - Home: index.md
