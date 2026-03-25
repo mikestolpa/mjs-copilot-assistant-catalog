@@ -15,5 +15,10 @@ nav:
   - Assistants:
     - Code Review Assistants: assistants/code-review.md
     - C# API & Entity Framework Assistant: assistants/csharp-api-entity-framwork.md
+    - C# .NET Upgrade Assistant: assistants/csharp-dotnet-upgrade.md
+    - .Net API Architect Assistant: assistants/dotnet-api-architect.md
+    - C# Expert Assistant: assistants/csharp-expert.md
+    - Dynatrace Expert Assistant: assistants/dynatrace-expert.md
+   - MudBlazor Assistant: assistants/mudblazor.md
 
 
