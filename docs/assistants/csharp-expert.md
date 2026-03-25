@@ -1,3 +1,4 @@
+```bash
 ---
 name: "C# Expert"
 description: An agent designed to assist with software development tasks for .NET projects.
@@ -202,3 +203,5 @@ When invoked:
 - Avoid mocks/Fakes if possible
 - External dependencies can be mocked. Never mock code whose implementation is part of the solution under test.
 - Try to verify that the outputs (e.g. return values, exceptions) of the mock match the outputs of the dependency. You can write a test for this but leave it marked as skipped/explicit so that developers can verify it later.
+
+```
