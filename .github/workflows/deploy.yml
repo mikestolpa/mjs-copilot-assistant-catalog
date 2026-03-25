@@ -20,6 +20,6 @@ jobs:
           python-version: '3.x'
       - run: pip install mkdocs-material
       - run: mkdocs build
-      - uses: actions/upload-pages-artifact@v2
+      - uses: actions/upload-pages-artifact@v3
         with:
           path: site
