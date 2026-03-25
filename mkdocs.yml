@@ -19,6 +19,6 @@ nav:
     - .Net API Architect Assistant: assistants/dotnet-api-architect.md
     - C# Expert Assistant: assistants/csharp-expert.md
     - Dynatrace Expert Assistant: assistants/dynatrace-expert.md
-   - MudBlazor Assistant: assistants/mudblazor.md
+    - MudBlazor Assistant: assistants/mudblazor.md
 
 
