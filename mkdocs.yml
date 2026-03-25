@@ -14,7 +14,7 @@ plugins:
 
 markdown_extensions:
   - pymdownx.highlight
-  - pymdownx.superfence
+  - pymdownx.superfences
 
 nav:
   - Home: index.md
