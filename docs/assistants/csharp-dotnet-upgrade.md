@@ -24,6 +24,7 @@ title: Analyze current .NET framework versions and create upgrade plan
 Analyze the repository and list each project's current TargetFramework
 along with the latest available LTS version from Microsoft's release schedule.
 Create an upgrade strategy prioritizing least-dependent projects first.
+
 ```
 
 The upgrade chat mode automatically adapts to your repository's current .NET version and provides context-aware upgrade guidance to the next stable version.

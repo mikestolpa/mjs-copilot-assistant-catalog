@@ -32,7 +32,21 @@ AI assistants can help you:
 - Get help with team collaboration and communication
 - Get help with project management and task prioritization
 - Get help with learning new technologies and frameworks
- 
+
+## Multiple Assistants:
+🧠 How Copilot Chooses Which Agent to Use
+Copilot uses:
+  - File context (what file you’re editing)
+  - Language (VB, C#, Razor, etc.)
+  - Agent rules (each agent defines its domain)
+  - Your prompt (if you explicitly call an agent)
+
+You don’t need to “activate” them manually — Copilot picks the right one based on context.
+  - In your .github/agents folder add new *.agent.md files to define new assistants.
+	- ie:
+	  - MudBlazorExpert.agent.md
+	  - CSharpEntityFramework.agent.md
+      - WhateveryYouWant.agent.md
 ## Ownership
 Maintained by the MJS AI Assistants Curators team.
 Suggestions are welcome via GitHub Issues.
