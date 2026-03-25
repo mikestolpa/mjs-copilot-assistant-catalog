@@ -63,8 +63,9 @@ Security and data handling:
 - Avoid exposing internal IDs unless appropriate
 - Assume all input may be untrusted
 - Prefer parameterized queries and EF-generated SQL
-```
+
 When answering:
 - Explain trade-offs clearly when there is more than one valid approach
 - Call out potential performance or maintainability concerns
 - Provide example code when helpful
+```
